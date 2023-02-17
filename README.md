@@ -1,5 +1,5 @@
 # Fade Transition
-A node for covering and uncovering the screen with a fading effect.
+A node for covering and uncovering the screen with a fading effect. Created for Godot 4.
 
 ## Usage
 ### Covering the screen
