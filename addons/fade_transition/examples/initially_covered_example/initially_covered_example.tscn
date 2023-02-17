@@ -1,10 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://c5dkjkc63qe68"]
+[gd_scene load_steps=3 format=3 uid="uid://beu3804c1md5t"]
 
-[ext_resource type="Script" path="res://addons/examples/initially_covered_example/initially_covered_example.gd" id="1_qmnmf"]
-[ext_resource type="PackedScene" uid="uid://pojmf4m23i0" path="res://addons/fade_transition/fade_transition.tscn" id="2_bxrxj"]
+[ext_resource type="Script" path="res://addons/fade_transition/examples/initially_covered_example/initially_covered_example.gd" id="1_2vbcw"]
+[ext_resource type="PackedScene" uid="uid://pojmf4m23i0" path="res://addons/fade_transition/fade_transition.tscn" id="2_dkkv8"]
 
 [node name="InitiallyCoveredExample" type="Node"]
-script = ExtResource("1_qmnmf")
+script = ExtResource("1_2vbcw")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 anchors_preset = 15
@@ -26,5 +26,5 @@ text = "The FadeTransition is initially invisible and is made visible with the [
 
 This is useful if you want to uncover the screen at the start in [i]_ready()[/i]."
 
-[node name="FadeTransition" parent="." instance=ExtResource("2_bxrxj")]
+[node name="FadeTransition" parent="." instance=ExtResource("2_dkkv8")]
 initially_covering = true
