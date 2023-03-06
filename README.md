@@ -5,6 +5,7 @@
 A node for covering and uncovering the screen with a fading effect. Created for Godot 4.
 
 ## Properties
+|Type | Name | Default value|
 |---|---|---|
 |float | default_cover_duration | 0.3 |
 |float | default_uncover_duration | 0.2 |
