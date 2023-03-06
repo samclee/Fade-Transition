@@ -16,6 +16,7 @@ A node for covering and uncovering the screen with a fading effect. Created for 
 |EaseType | uncover_ease | EASE_OUT |
 
 ## Methods
+Return type | Signature
 ---|---
 void | cover(float duration=default_cover_duration)
 void | uncover(float duration=default_uncover_duration)
