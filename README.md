@@ -1,4 +1,5 @@
 # Fade Transition
+![An icon of a person holding up a peace sign with text above that reads "See ya..."](https://raw.githubusercontent.com/samclee/Fade-Transition/main/assets/icon.png)
 ## Description
 [Download it here](https://godotengine.org/asset-library/asset/1663)
 
